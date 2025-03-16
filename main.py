@@ -66,4 +66,4 @@ for _ in range(NumberOfAutomata):
     
 for idx, automata in enumerate(cases): #Print the equivalent states
     equivalentes = automata.getEquivalentStates()
-    print( " ".join(f"({p},{q})" for p, q in equivalentes))
+    print( " ".join(f"({p},{q})" for p, q in equivalentes))  
